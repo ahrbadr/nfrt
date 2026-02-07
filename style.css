@@ -142,6 +142,7 @@ footer p {
 
 .hidden { display: none; }
 .success-msg { color: #bf953f; margin-top: 1rem; font-family: 'Cinzel', serif; letter-spacing: 1px; }
+.error-msg { color: #c44; margin-top: 1rem; }
 
 /* Mobile Adjustments */
 @media (max-width: 600px) {
