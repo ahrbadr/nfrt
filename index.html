@@ -3,28 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nfrt.net | Live</title>
+    <title>NFRT | The Return of Sacred Scent</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>nfrt.net</h1>
-            <p class="status-tag">Status: Online</p>
+    <div class="overlay"></div> <div class="container">
+        <header class="fade-in">
+            <h1 class="logo">NFRT</h1>
+            <p class="subtitle">CAIRO &bull; PARIS &bull; 2026</p>
         </header>
-        
-        <main>
-            <section class="card">
-                <h2>Domain Connected Successfully!</h2>
-                <p>If you can see this page, your <strong>Porkbun + GitHub Pages</strong> integration is working perfectly.</p>
-                <div id="js-test" class="test-box">Testing JavaScript...</div>
-            </section>
+
+        <main class="fade-in-delayed">
+            <h2 class="headline">The Pharaoh's Sigil Returns.</h2>
+            <p class="description">
+                A molecular reconstruction of the 18th Dynasty's lost perfumes. 
+                <br>Limited extraction reserved for the few.
+            </p>
+
+            <form id="waitlist-form" class="signup-form">
+                <input type="email" id="email" placeholder="Enter your email for access" required>
+                <button type="submit">Request Allocation</button>
+            </form>
+            
+            <p id="form-message" class="hidden"></p>
         </main>
 
-        <footer>
-            <p>&copy; 2026 nfrt.net</p>
+        <footer class="fade-in-late">
+            <span class="divider"></span>
+            <p>&copy; 2026 NFRT.NET | Ancient Alchemy Reborn</p>
         </footer>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
